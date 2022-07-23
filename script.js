@@ -23,3 +23,7 @@ const createMessage = (name, primeFunc, feeling) => {
 }
 
 createMessage(names, primFunction, feeling);
+
+
+//One Line Challenge:
+// console.log(`Hello I am an AI and my name is ${names[Math.floor(Math.random() * names.length)]}. My primary function is to ${primFunction[Math.floor(Math.random() * primFunction.length)]} and this makes me feel ${feeling[Math.floor(Math.random() * feeling.length)]}!`);
