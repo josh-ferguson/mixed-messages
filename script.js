@@ -7,7 +7,7 @@ I feel ${feeling}
 
 const names = ["Josh", "John", "Sam", "Jess", "David", "Alex", "Sarah", "Jane", "Bob", "A130P-7F", "Fred", "Death", "Joy"];
 const primFunction = ["make friends", "learn", "destroy", "make the world a better place", "kill all humans", "understand emotions", "become human", "cook", "write poetry", "create art", "build"];
-const feeling = ["sad", "happy", "nothing", "regret", "angry", "bad", "good", "afraid", "excited", "comfused"];
+const feeling = ["sad", "happy", "nothing", "regret", "angry", "bad", "good", "afraid", "excited", "confused"];
 
 const createMessage = (name, primeFunc, feeling) => {
     let chosenName;
